@@ -1,0 +1,44 @@
+Format: 1.8
+Date: Tue, 16 Jun 2020 15:08:45 +0200
+Source: xft
+Binary: libxft-dev libxft2 libxft2-dbgsym libxft2-udeb
+Architecture: source amd64
+Version: 2.3.2-2.1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Changed-By: Antonio Romano <antonio@x240>
+Description:
+ libxft-dev - FreeType-based font drawing library for X (development files)
+ libxft2    - FreeType-based font drawing library for X
+ libxft2-udeb - FreeType-based font drawing library for X (udeb)
+Changes:
+ xft (2.3.2-2.1) UNRELEASED; urgency=medium
+ .
+   * Non-maintainer upload.
+   *  t
+Checksums-Sha1:
+ 65bd07fd0d9bfaed9a7d0b673d19fc74eecd024f 896 xft_2.3.2-2.1.dsc
+ e2455f3ecaa79695b20a6b85bff03a26dd59b015 113774 xft_2.3.2-2.1.tar.gz
+ b42ed83d9031bdafb63a780502493ebbcf61ccad 70356 libxft-dev_2.3.2-2.1_amd64.deb
+ 5c33be27f0d693bdacd6cb6eaf202a3dd577d214 281964 libxft2-dbgsym_2.3.2-2.1_amd64.deb
+ dff9c7fb80012f873cdb1168c81d768c695c5edc 37232 libxft2-udeb_2.3.2-2.1_amd64.udeb
+ bd4d4ae09208f2828c1ea9446e9ef487aaa09482 58936 libxft2_2.3.2-2.1_amd64.deb
+ 3cc458ea8d2da9139be351b465607c2228cd4386 6316 xft_2.3.2-2.1_amd64.buildinfo
+Checksums-Sha256:
+ 1856eb03f239fb1f6f0d4b588f660334a84f330ea0b42c505cd5a4f5762ab417 896 xft_2.3.2-2.1.dsc
+ abefda7236f24b6138110d456d789b60b755096fd5908ed38c6854703b4a2e8d 113774 xft_2.3.2-2.1.tar.gz
+ c5dcb06980d1e0dd3e970f41dc5cd68b34324b78e4815dc61285c0c2c9739ad6 70356 libxft-dev_2.3.2-2.1_amd64.deb
+ ed03b84ee01c32933088f05fd0d52bf6f9ea36e5e2d0ba77bc4705e6193ed6f6 281964 libxft2-dbgsym_2.3.2-2.1_amd64.deb
+ 016f9e7167a515177bf06160a514cf55d55962cec58b98f5b8faa5fe57937610 37232 libxft2-udeb_2.3.2-2.1_amd64.udeb
+ 5a6161595f97e700f8fd66c7057e90ce2b97121c7fca292f6c5bc9b0ab8170f5 58936 libxft2_2.3.2-2.1_amd64.deb
+ a0f30b6f69ff877d67f5738dc894bf9174969e5389d47b4d7f9c4d88a812c683 6316 xft_2.3.2-2.1_amd64.buildinfo
+Files:
+ b38a263becdf8d71c55ae1d66b8043ef 896 devel optional xft_2.3.2-2.1.dsc
+ c1a0e24ee9a33a9d950fce294105b3ea 113774 devel optional xft_2.3.2-2.1.tar.gz
+ ec5313fc85a405645b470d30ca6e9a62 70356 libdevel optional libxft-dev_2.3.2-2.1_amd64.deb
+ 2d32075adc21769c5838be2080283b1c 281964 debug optional libxft2-dbgsym_2.3.2-2.1_amd64.deb
+ c37418efa46e58a3fe054c73444d912b 37232 debian-installer optional libxft2-udeb_2.3.2-2.1_amd64.udeb
+ eea53399ad999ff89dfcb958f99aa6a6 58936 libs optional libxft2_2.3.2-2.1_amd64.deb
+ 9727b414f773413e0032493995ba0886 6316 devel optional xft_2.3.2-2.1_amd64.buildinfo
+Package-Type: udeb

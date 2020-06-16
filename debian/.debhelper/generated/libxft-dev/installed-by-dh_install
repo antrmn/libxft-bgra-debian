@@ -1,0 +1,6 @@
+debian/tmp/usr/include/X11/Xft/Xft.h
+debian/tmp/usr/include/X11/Xft/XftCompat.h
+debian/tmp/usr/lib/x86_64-linux-gnu/libXft.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libXft.so
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/xft.pc
+debian/tmp/usr/share/man/man3/Xft.3

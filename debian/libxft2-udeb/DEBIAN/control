@@ -1,0 +1,11 @@
+Package: libxft2-udeb
+Source: xft
+Version: 2.3.2-2.1
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 101
+Depends: fontconfig-udeb (>= 2.13), libc6-udeb (>= 2.28), libfreetype6-udeb (>= 2.9), libx11-6-udeb (>= 2:1.6.0), libxrender1-udeb
+Section: debian-installer
+Priority: optional
+Description: FreeType-based font drawing library for X
+ This is a udeb, or a microdeb, for the debian-installer.

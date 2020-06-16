@@ -1,0 +1,15 @@
+Package: libxft2-dbgsym
+Source: xft
+Version: 2.3.2-2.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 306
+Depends: libxft2 (= 2.3.2-2.1)
+Breaks: libxft2-dbg (<< 2.3.2-2~)
+Replaces: libxft2-dbg (<< 2.3.2-2~)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libxft2
+Build-Ids: 8bcbab5e902eafe260a854e3ef1fcd2ca9e82164
